@@ -1,0 +1,54 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 40em;
+	margin: 2em auto;
+	background-color: #111;
+	color: #eee;
+	font-size: max(1em, 18px);
+	margin-bottom:  6em;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+#splash {
+	width: 100%;
+}
+
+a {
+	color: yellowgreen;
+}
+
+h3 {
+	margin-top: 2em;
+}
+
+#download {
+	display: block;
+	margin: 2em auto;
+	width: 15em;
+}
+
+#download div {
+	background-color: yellowgreen;
+	border: 4px solid yellowgreen;
+	border-radius: 4px;
+	padding: 0.5em;
+	text-align: center;
+	color: black;
+}
+
+#download #version {
+	font-size: 90%;
+}
+
+footer {
+	font-size: initial;
+	text-align: center;
+	padding: 2em;
+}
